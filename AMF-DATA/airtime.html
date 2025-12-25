@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Buy Airtime - AMF DATA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+  <div class="logo">AMF DATA</div>
+</header>
+
+<div class="container">
+
+    <h2>Buy Airtime</h2>
+
+    <form id="airtimeForm">
+      <select required>
+        <option value="">Select Network</option>
+        <option>MTN</option>
+        <option>Airtel</option>
+        <option>Glo</option>
+        <option>9mobile</option>
+      </select>
+
+      <input type="tel" placeholder="Phone Number" required>
+      <input type="number" placeholder="Amount (₦)" required>
+
+      <button type="submit" class="btn">Buy Airtime</button>
+    </form>
+
+    <div id="loader" class="loader"></div>
+    <div id="message"></div>
+
+    <a href="index.html" class="back">← Back Home</a>
+  </div>
+<footer class="footer">
+  <p>Contact: support@amfdata.com</p>
+  <p>© 2025 AMF DATA. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
